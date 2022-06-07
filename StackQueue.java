@@ -67,5 +67,9 @@ public class StackQueue {
 		queue.enqueue(30);
 		queue.enqueue(70);
 		queue.display();
+		System.out.println("\nThe Elements after delete in Queue is ");
+		queue.dequeue();
+		queue.display();
+
 	}
 }
