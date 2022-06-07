@@ -50,7 +50,7 @@ public class StackQueue {
 		}
 	}
 	public static void main(String[] args) {
-		System.out.println("Welcome Stack and Queue program");
+		/*	System.out.println("Welcome Stack and Queue program");
 		StackQueue list = new StackQueue();
 		list.push(70);
 		list.push(30);
@@ -61,6 +61,11 @@ public class StackQueue {
 		list.pop();
 		System.out.println("\nAfter deletion ");
 		list.display();
-		System.out.printf("\nTop element is %d\n", list.peek());
+		System.out.printf("\nTop element is %d\n", list.peek());*/
+		Queue queue = new Queue();
+		queue.enqueue(56);
+		queue.enqueue(30);
+		queue.enqueue(70);
+		queue.display();
 	}
 }
